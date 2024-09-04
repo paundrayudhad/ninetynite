@@ -7,13 +7,12 @@ import GridPattern from "./magicui/grid-pattern";
 export default function hero() {
   return (
     <>
-    <section className="bg-neutral-950 min-h-screen">
-  <div className="mx-auto max-w-screen-lg px-4 py-32 flex h-screen items-center">
-    <div className="mx-auto text-center my-auto">
-      <LetterPullup 
-        className="text-white bg-clip-text lg:text-[240px] text-9xl font-embassy z-10"
-        words="Ninetynite"
-      >
+    <section className="bg-neutral-950 min-h-screen flex items-center justify-center">
+      <div className="max-w-screen-lg flex flex-col items-center text-center -ml-10">
+        <LetterPullup 
+          className="text-white bg-clip-text lg:text-[240px] text-9xl font-embassy z-10"
+          words="Ninetynite"
+        >
       </LetterPullup>
       <GridPattern
         squares={[
@@ -35,7 +34,6 @@ export default function hero() {
           "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
         )}
       />
-    </div>
   </div>
 </section>
 </>

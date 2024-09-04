@@ -16,7 +16,7 @@ export default function Home() {
     <VelocityScroll
       text="Ninetynite+ "
       default_velocity={3}
-      className="font-display text-center text-sm font-bold tracking-[-0.02em] text-black drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem]"
+      className="font-display text-center text-sm font-bold tracking-[-0.02em] text-black drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem] z-20"
     />
     <PriceList />
     <Footer />
