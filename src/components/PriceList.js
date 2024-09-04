@@ -32,7 +32,7 @@ export default function PriceList() {
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
             {priceList.map((item) => (
               <li key={item.id}>
-                <a href="#" className="group block overflow-hidden">
+                <a  className="group block overflow-hidden">
                   <div className="relative h-[350px] sm:h-[450px]">
                     <div className="relative h-full w-full">
                       <Image
