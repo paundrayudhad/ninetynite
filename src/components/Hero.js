@@ -10,7 +10,7 @@ export default function hero() {
     <section className="bg-neutral-950 min-h-screen flex items-center justify-center">
       <div className="max-w-screen-lg flex flex-col items-center text-center -ml-10">
         <LetterPullup 
-          className="text-white bg-clip-text lg:text-[240px] text-9xl font-embassy z-10"
+          className="text-white bg-clip-text lg:text-[240px] text-9xl md:text-[120px] font-embassy z-10"
           words="Ninetynite"
         >
       </LetterPullup>
