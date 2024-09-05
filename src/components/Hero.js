@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils"; 
 import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern"
-import LetterPullup from "@/components/magicui/letter-pullup";
 import GridPattern from "./magicui/grid-pattern";
+import GradualSpacing from "./magicui/gradual-spacing";
 
 
 export default function hero() {
@@ -9,11 +9,11 @@ export default function hero() {
     <>
     <section className="bg-neutral-950 min-h-screen flex items-center justify-center">
       <div className="max-w-screen-lg flex flex-col items-center text-center -ml-10">
-        <LetterPullup 
+        <GradualSpacing 
           className="text-white bg-clip-text lg:text-[14rem] text-8xl md:text-[120px] font-embassy z-10"
-          words="Ninetynite"
+          text="Ninetynite"
         >
-      </LetterPullup>
+      </GradualSpacing>
       <GridPattern
         squares={[
           [4, 4],
