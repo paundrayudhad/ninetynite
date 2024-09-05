@@ -31,7 +31,7 @@ export default function LetterPullup({
           animate="animate"
           custom={i}
           className={cn(
-            "font-display text-center text-2xl tracking-[-0.05em] text-black drop-shadow-sm dark:text-white md:text-4xl md:leading-[5rem]",
+            "font-display text-center text-2xl tracking-normal text-black drop-shadow-sm dark:text-white md:text-4xl md:leading-[5rem]",
             className
           )}>
           {letter === "" ? <span>&nbsp;</span> : letter}
