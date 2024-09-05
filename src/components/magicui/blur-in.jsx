@@ -23,7 +23,7 @@ const BlurIn = ({
       variants={combinedVariants}
       className={cn(
         className,
-        " text-center text-4xl font-bold tracking-normal drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        "text-center text-4xl tracking-normal drop-shadow-sm md:text-7xl md:leading-[5rem]"
       )}>
       {word}
     </motion.h1>)
