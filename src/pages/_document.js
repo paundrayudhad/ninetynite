@@ -10,6 +10,7 @@ export default function Document() {
         <meta property="og:title" content="Ninetynite+" />
         <meta property="og:description" content="Temukan koleksi baju eksklusif dari brand Ninetynite+ di Surakarta. Fashion terbaru dan tren terkini, hanya untuk Anda. Belanja sekarang dan tampil stylish dengan Ninetynite+." />
         <meta property="og:url" content="https://ninetynite.vercel.app/" />
+      <link rel="icon" href="/logo.svg" />
       </Head>
       <body>
         <Main />
