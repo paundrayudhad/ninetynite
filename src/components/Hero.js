@@ -1,10 +1,5 @@
 import { cn } from "@/lib/utils"; 
-import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern"
 import GridPattern from "./magicui/grid-pattern";
-import GradualSpacing from "./magicui/gradual-spacing";
-import BlurIn from "./magicui/blur-in";
-
-
 export default function Hero() {
   return (
     <>

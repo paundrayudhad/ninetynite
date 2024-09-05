@@ -7,7 +7,7 @@ const priceList = [
     price: 200000,
     imageFront: "/t-shirt/hitam-depan.svg",
     imageBack: "/t-shirt/hitam-belakang.svg",
-    link: "https://api.whatsapp.com/send?phone=6281228291117&text=Halo%2C%20saya%20mau%20membeli%20t-shirt%20LOVE%20OPINION%20%22Cursed%20Edition%22"
+    link: "https://api.whatsapp.com/send?phone=6281228291117&text=Halo%2C%20saya%20mau%20membeli%20t-shirt%20LOVE%20OPINION%201"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const priceList = [
     price: 200000,
     imageFront: "/t-shirt/putih-depan.png",
     imageBack: "/t-shirt/putih-belakang.png",
-    link: "https://api.whatsapp.com/send?phone=6281228291117&text=halo%2C%20saya%20mau%20membeli%20t-shirt%20LOVE%20OPINION%20%22Typography%20OG%20Logo%22"
+    link: "https://api.whatsapp.com/send?phone=6281228291117&text=halo%2C%20saya%20mau%20membeli%20t-shirt%20LOVE%20OPINION%202"
   }
 ];
 
