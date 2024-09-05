@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <>
       <section className="bg-neutral-950 min-h-screen flex items-center justify-center">
-        <div className="max-w-screen-full w-full flex flex-col items-center text-center">
+        <div className=" w-full flex flex-col items-center text-center">
           <BlurIn 
             className="text-white bg-clip-text lg:text-[14rem] text-6xl md:text-[8rem] font-embassy z-10"
             word="Ninetynite"
