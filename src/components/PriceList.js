@@ -3,7 +3,7 @@ import Image from "next/image";
 const priceList = [
   {
     id: 1,
-    name: "Cursed Edition",
+    name: "LOVE OPINION +1",
     price: 200000,
     imageFront: "/t-shirt/hitam-depan.svg",
     imageBack: "/t-shirt/hitam-belakang.svg",
@@ -11,7 +11,7 @@ const priceList = [
   },
   {
     id: 2,
-    name: "Typography OG Logo",
+    name: "LOVE OPINION +2",
     price: 200000,
     imageFront: "/t-shirt/putih-depan.png",
     imageBack: "/t-shirt/putih-belakang.png",
