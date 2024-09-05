@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern"
 import GridPattern from "./magicui/grid-pattern";
 import GradualSpacing from "./magicui/gradual-spacing";
+import BlurIn from "./magicui/blur-in";
 
 
 export default function hero() {
@@ -9,11 +10,11 @@ export default function hero() {
     <>
     <section className="bg-neutral-950 min-h-screen flex items-center justify-center">
       <div className="max-w-screen-lg flex flex-col items-center text-center -ml-10">
-        <GradualSpacing 
+        <BlurIn 
           className="text-white bg-clip-text lg:text-[14rem] text-8xl md:text-[120px] font-embassy z-10"
-          text="Ninetynite"
+          word="Ninetynite"
         >
-      </GradualSpacing>
+      </BlurIn>
       <GridPattern
         squares={[
           [4, 4],
