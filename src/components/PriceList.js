@@ -4,7 +4,7 @@ const priceList = [
   {
     id: 1,
     name: "LOVE OPINION +1",
-    price: 200000,
+    price: 180000,
     imageFront: "/t-shirt/hitam-depan.svg",
     imageBack: "/t-shirt/hitam-belakang.svg",
     link: "https://api.whatsapp.com/send?phone=6281228291117&text=Halo%2C%20saya%20mau%20membeli%20t-shirt%20LOVE%20OPINION%201"
@@ -12,7 +12,7 @@ const priceList = [
   {
     id: 2,
     name: "LOVE OPINION +2",
-    price: 200000,
+    price: 180000,
     imageFront: "/t-shirt/putih-depan.png",
     imageBack: "/t-shirt/putih-belakang.png",
     link: "https://api.whatsapp.com/send?phone=6281228291117&text=halo%2C%20saya%20mau%20membeli%20t-shirt%20LOVE%20OPINION%202"
