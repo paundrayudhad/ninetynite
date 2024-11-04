@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero"
+import { Analytics } from "@vercel/analytics/react"
 import PriceList from "@/components/PriceList";
 import Footer from "@/components/Footer";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
@@ -7,10 +8,11 @@ import Head from "next/head"
 
 export default function Home() {
   return (
-    <>
+    <html>
     <Head>
         <title>Ninetynite - Official Website</title>
       </Head>
+      <body>
     <Header />
     <Hero/>
     <VelocityScroll
@@ -20,6 +22,8 @@ export default function Home() {
     />
     <PriceList />
     <Footer />
-    </>
+    <Analytics />
+    </body>
+    </html>
   );
 }
